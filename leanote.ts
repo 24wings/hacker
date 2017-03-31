@@ -26,7 +26,7 @@ function loadScript(scripts: string[]) {
 
 }
 window.onload = function () {
-    loadScript(['node_modules/jquery/dist/jquery.min.js',
+    loadScript(['https://code.jquery.com/jquery-2.x-git.min.js',
         '//spritely.net/scripts/jquery-ui-1.7.2.spritely.custom.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.8/jquery.spritely.min.js'
     ]).then(rtn => {
